@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: cea9216f8662b8e43a713560c1407826
+AssetOrigin:
+  serializedVersion: 1
+  productId: 291337
+  packageName: FolderColor
+  packageVersion: 3.1
+  assetPath: Assets/FolderColor/Editor/HierarchyColorVisualDrawer.cs
+  uploadId: 1035230
