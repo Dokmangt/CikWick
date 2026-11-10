@@ -14,5 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: FolderColor.Editor::FolderColor.Editor.FolderColorDatabase
   Mode: 1
   UserId: 
-  IconEntries: []
+  IconEntries:
+  - Guid: 15f699d5de83703469f8af21e1d01e23
+    IconPath: AbaseFolder.png
+    IconColor: {r: 0, g: 0, b: 0, a: 1}
+    HighlightName: 0
+    HighlightChildren: 0
   Entries: []
