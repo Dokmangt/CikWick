@@ -455,6 +455,7 @@ GameObject:
   - component: {fileID: 1029555404}
   - component: {fileID: 1029555403}
   - component: {fileID: 1029555405}
+  - component: {fileID: 1029555407}
   - component: {fileID: 1029555406}
   m_Layer: 0
   m_Name: Player
@@ -520,15 +521,15 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   playerHeight: 1
-  groundDrag: 5
+  groundDrag: 4
   JumpKey: 32
-  JumpForce: 8
+  JumpForce: 5
   canjump: 1
   jumpCooldown: 0.5
   slideKey: 113
   sliding: 0
-  slidemultiplier: 7
-  slideDrag: 5
+  slidemultiplier: 2
+  slideDrag: 1
   _playerorientation: {fileID: 1139665422}
 --- !u!54 &1029555406
 Rigidbody:
@@ -557,6 +558,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1029555407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029555402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34524ec8fa3202a4db61436403a3d467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StateController
 --- !u!1 &1069858765
 GameObject:
   m_ObjectHideFlags: 0
